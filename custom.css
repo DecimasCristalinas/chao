@@ -3,9 +3,12 @@
 padding: 0; !important;
 margin: 0; !important;
 }
+.btnmarcar2 {
+    float: left;
+    margin-right: 30px;
+}
 .btn-primary {
 font-family: 'Domine', serif;
-    margin-right: 20px;
 }
 .alitext a{
 font-family: 'Domine', serif;
@@ -14,6 +17,8 @@ font-family: 'Domine', serif;
 }
 btnmarcar {
     color: aliceblue; !important;
+     background-color: rgb(0,0,0); !important; /* Fallback color */
+  background-color: rgba(0,0,0,0.4); !important; /* Black w/ opacity */ 
 }
 .texto2{
     width: 100%;
