@@ -1,10 +1,8 @@
 /*--CSS--*/
 *{
     font-family: 'Domine', serif;
-}
-.colorbluee{
-    color: #90c6e2; !important;
-}
+    text-decoration: none; !important;
+} 
 .nopadding {
 padding: 0; !important;
 margin: 0; !important;
@@ -12,8 +10,23 @@ margin: 0; !important;
 .btnmarcar2 {
     float: left;
 }
-.btn-primary {
-font-family: 'Domine', serif;
+.btnnavbarmarcarmesa {
+    background-color: skyblue; !important;
+    color: aliceblue; !important;
+    border-color: aliceblue; !important;
+}
+.btnnavbarmarcarmesa:hover {
+    background-color: cadetblue; !important;
+    color: aliceblue; !important;
+    border-color: cadetblue; !important;
+    text-decoration: none; !important;
+}
+.btnnavbarmarcarmesa a {
+    color: aliceblue; !important;
+}
+
+nav .sbtnnav li a .a{
+    color: aliceblue; !important;
 }
 .alitext a{
 font-family: 'Domine', serif;
@@ -23,9 +36,6 @@ font-family: 'Domine', serif;
 }
 .texto2{
     width: 100%;
-}
-.navbarletters {
-    color: aqua; !important;
 }
 .carousselheight {
     height: 600px;
@@ -37,20 +47,7 @@ margin-left: 0; !important;
 .navbar-custom {
      background-color: #5c3100;
 }
-/* change the brand and text color */
-.navbar-custom .navbar-brand,
-.navbar-custom .navbar-text {
-    color: #00dfff;
-}
-/* change the link color */
-.navbar-custom .navbar-nav .nav-link {
-    color: #00dfff;
-}
-/* change the color of active or hovered links */
-.navbar-custom .nav-item.active .nav-link,
-.navbar-custom .nav-item:hover .nav-link {
-    color: #006ffe;
-}
+
 .btnbackground {
     background-color: aliceblue;
     vertical-align: bottom;
@@ -100,9 +97,6 @@ html, body {
 .bg-brown{
     background-color: #5c3113;
 }
-nav .navbar-nav li a{
-  color: skyblue!important;
-  }
 .col{
     padding: 0px !important;
 }
@@ -147,10 +141,6 @@ html, body {
 .bg-brown{
     background-color: #5c3113;
 }
-
-nav .navbar-nav li a{
-  color: skyblue; !important;
-  }
 .col{
     padding: 0px !important;
 }
@@ -190,14 +180,6 @@ nav .navbar-nav li a{
     #soempequeno{
         display: none;
     }
-    .divdiscriçao {
-    text-align: left;
-    width: 60%;
-    height: 50px;
-    margin-top: 100px;
-    margin-left: 10px;
-        float: left;
-}
     .divdiscriçaoleft {
         text-align: left;
         margin-left: 10px;
@@ -215,6 +197,14 @@ nav .navbar-nav li a{
     .btnmarcar1 a {
         font-size: 20px;
     }
+       .divdiscriçao {
+    text-align: left;
+    width: 60%;
+    height: 50px;
+    margin-top: 100px;
+    margin-left: 10px;
+        float: left;
+}
 }
 @media screen and (max-width: 992px) {
     
@@ -226,8 +216,14 @@ nav .navbar-nav li a{
     width: 100%;
     height: 80px;
     margin-top: 25px;
+        display: none;
 }
+    .divdescriçaotlm {
+        height: 200px;
+    }
     .divdiscriçaoleft {
         text-align: center;
+        height: 100px;
+        padding: 20px;
     }
 }
