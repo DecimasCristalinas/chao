@@ -1,11 +1,16 @@
 /*--CSS--*/
+*{
+    font-family: 'Domine', serif;
+}
+.colorbluee{
+    color: #90c6e2; !important;
+}
 .nopadding {
 padding: 0; !important;
 margin: 0; !important;
 }
 .btnmarcar2 {
     float: left;
-    margin-right: 30px;
 }
 .btn-primary {
 font-family: 'Domine', serif;
@@ -14,6 +19,7 @@ font-family: 'Domine', serif;
 font-family: 'Domine', serif;
     margin-right: 10px;
     margin-left: 10px;
+    color: #90c6e2; !important;
 }
 .texto2{
     width: 100%;
@@ -95,7 +101,7 @@ html, body {
     background-color: #5c3113;
 }
 nav .navbar-nav li a{
-  color: white !important;
+  color: skyblue!important;
   }
 .col{
     padding: 0px !important;
@@ -143,7 +149,7 @@ html, body {
 }
 
 nav .navbar-nav li a{
-  color: white !important;
+  color: skyblue; !important;
   }
 .col{
     padding: 0px !important;
@@ -195,6 +201,7 @@ nav .navbar-nav li a{
     .divdiscriçaoleft {
         text-align: left;
         margin-left: 10px;
+        margin-top: 20px;
     }
     .texto2 a {
         font-size: 30px;
@@ -204,6 +211,9 @@ nav .navbar-nav li a{
     }
     .btnmarcar a {
         font-size: 30px;
+    }
+    .btnmarcar1 a {
+        font-size: 20px;
     }
 }
 @media screen and (max-width: 992px) {
