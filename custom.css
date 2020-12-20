@@ -13,12 +13,10 @@ margin: 0; !important;
 .btnnavbarmarcarmesa {
     background-color: #0487be; !important;
     color: aliceblue; !important;
-    border-color: aliceblue; !important;
 }
 .btnnavbarmarcarmesa:hover {
     background-color: cadetblue; !important;
     color: aliceblue; !important;
-    border-color: cadetblue; !important;
     text-decoration: none; !important;
 }
 .btnnavbarmarcarmesa a {
